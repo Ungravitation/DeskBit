@@ -11,7 +11,8 @@
         "README.md",
         "main.ts",
         "targetOverrides.ts",
-        "ns.ts"
+        "ns.ts",
+        "_locales/zh-CN/RingbitCar-strings.json"
     ],
     "testFiles": [
         "test.ts"
