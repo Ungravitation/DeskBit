@@ -173,7 +173,7 @@ namespace DeskBit {
      * car's shovel
      */
     //% block="Angle of Car's arm: %angle °"
-    //% angle.min=0 angle.max=90
+    //% angle.min=0 angle.max=180
     //% group="Car"
     export function Shovel(angle: number) {
         shovel.InternalSetAngle(angle);
