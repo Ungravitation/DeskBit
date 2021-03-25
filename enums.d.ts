@@ -1,4 +1,6 @@
 // Auto-generated. Do not edit.
+declare namespace maqueenIRV2 {
+}
 
 
     declare const enum Pins {
@@ -48,8 +50,6 @@
     Nine = 0x1a,
     }
 declare namespace maqueenIR {
-}
-declare namespace maqueenIRV2 {
 }
 
 // Auto-generated. Do not edit. Really.
