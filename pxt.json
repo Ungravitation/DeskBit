@@ -14,7 +14,14 @@
         "ns.ts",
         "_locales/zh-CN/RingbitCar-strings.json",
         "NecIR.cpp",
-        "shims.d.ts"
+        "shims.d.ts",
+        "enums.d.ts",
+        "maqueenIR.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h"
     ],
     "testFiles": [
         "test.ts"
