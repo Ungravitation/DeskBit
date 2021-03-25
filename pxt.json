@@ -12,7 +12,8 @@
         "main.ts",
         "targetOverrides.ts",
         "ns.ts",
-        "_locales/zh-CN/RingbitCar-strings.json"
+        "_locales/zh-CN/RingbitCar-strings.json",
+        "NecIR.cpp"
     ],
     "testFiles": [
         "test.ts"
