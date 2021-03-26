@@ -238,8 +238,8 @@ namespace DeskBit {
             default:
             irdata = -1;
         }
-        return irdata;
-        //return irCode();
+        //return irdata;
+        return irCode();
     }
     basic.forever(() => {
         if(state == 1){
