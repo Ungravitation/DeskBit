@@ -219,22 +219,22 @@ namespace DeskBit {
         let irdata:number;
         switch(irCode()){
             case 0xb946:irdata = 12;break;
-            case 0xf22d:irdata = 13;break;
-            case 0xfa85:irdata = 14;break;
-            case 0xfc23:irdata = 15;break;
-            case 0xf02f:irdata = 16;break;
-            case 0xf4ab:irdata = 0;break;
-            case 0xf689:irdata = 1;break;
-            case 0xf986:irdata = 2;break;
-            case 0xfB04:irdata = 3;break;
+            case 0xbb44:irdata = 13;break;
+            case 0xea15:irdata = 14;break;
+            case 0xbc43:irdata = 15;break;
+            case 0xbf40:irdata = 16;break;
+            case 0xad52:irdata = 0;break;
+            case 0xe916:irdata = 1;break;
+            case 0xe619:irdata = 2;break;
+            case 0xf20d:irdata = 3;break;
             case 0xf30C:irdata = 4;break;
-            case 0xf18E:irdata = 5;break;
-            case 0xf7A8:irdata = 6;break;
-            case 0xf10E:irdata = 7;break;
-            case 0xf38C:irdata = 8;break;
-            case 0xf5AA:irdata = 9;break;
-            case 0xf42B:irdata = 10;break;
-            case 0xf52A:irdata = 11;break;
+            case 0xe718:irdata = 5;break;
+            case 0xa15e:irdata = 6;break;
+            case 0xf708:irdata = 7;break;
+            case 0xe31c:irdata = 8;break;
+            case 0xa55a:irdata = 9;break;
+            case 0xbd42:irdata = 10;break;
+            case 0xb54a:irdata = 11;break;
             default:
             irdata = -1;
         }
