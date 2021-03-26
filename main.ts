@@ -5,6 +5,18 @@
  * Write the date: 2021-01-05
  */
 
+enum state {
+        state1=0x10,
+        state2=0x11,
+        state3=0x20,
+        state4=0x21
+    }
+interface KV {
+    key: state;
+    action: Action;
+}
+
+
 //% color="#ff6800" icon="\uf1b9" 
 //% groups='["Car", "Servo", "Configuration"]'
 namespace DeskBit {
@@ -179,6 +191,9 @@ namespace DeskBit {
         shovel.InternalSetAngle(angle);
     }
 
+    let irstate:number;
+    let state:number;
+
     //% advanced=true shim=maqueenIRV2::irCode
     function irCode(): number {
         return 0;
@@ -189,6 +204,16 @@ namespace DeskBit {
     //% blockId=IR_readv2 block="read IR key value"
     export function IR_readV2(): number {
         return valuotokeyConversion();
+    }
+    //% weight=2
+    //% group="micro:bit(v2)"
+    //% blockId=IR_callbackUserv2 block="on IR received"
+    //% draggableParameters
+    export function IR_callbackUserV2(cb: (message: number) => void) {
+        state = 1;
+        control.onEvent(11, 22, function() {
+            cb(irstate)
+        }) 
     }
     function valuotokeyConversion():number{
         let irdata:number;
