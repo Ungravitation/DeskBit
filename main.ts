@@ -244,6 +244,16 @@ namespace DeskBit {
         }
         return irdata;
     }
+    basic.forever(() => {
+        if(state == 1){
+            irstate = valuotokeyConversion();
+            if(irstate != -1){
+                control.raiseEvent(11, 22)
+            }
+        }
+        
+        basic.pause(20);
+    })
 }
 
 enum DIR {
