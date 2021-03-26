@@ -49,7 +49,7 @@ declare namespace maqueenIRV2 {
     Eight = 0x19,
     Nine = 0x1a,
     }
-declare namespace maqueenIR {
+declare namespace keyestudioIR {
 }
 
 // Auto-generated. Do not edit. Really.
