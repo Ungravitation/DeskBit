@@ -218,23 +218,23 @@ namespace DeskBit {
     function valuotokeyConversion():number{
         let irdata:number;
         switch(irCode()){
-            case 0xf629D:irdata = 12;break;
-            case 0xf22DD:irdata = 13;break;
-            case 0xfA857:irdata = 14;break;
-            case 0xfC23D:irdata = 15;break;
-            case 0xf02FD:irdata = 16;break;
-            case 0xf4AB5:irdata = 0;break;
-            case 0xf6897:irdata = 1;break;
-            case 0xf9867:irdata = 2;break;
-            case 0xfB04F:irdata = 3;break;
-            case 0xf30CF:irdata = 4;break;
-            case 0xf18E7:irdata = 5;break;
-            case 0xf7A85:irdata = 6;break;
-            case 0xf10EF:irdata = 7;break;
-            case 0xf38C7:irdata = 8;break;
-            case 0xf5AA5:irdata = 9;break;
-            case 0xf42BD:irdata = 10;break;
-            case 0xf52AD:irdata = 11;break;
+            case 0xf629:irdata = 12;break;
+            case 0xf22d:irdata = 13;break;
+            case 0xfa85:irdata = 14;break;
+            case 0xfc23:irdata = 15;break;
+            case 0xf02f:irdata = 16;break;
+            case 0xf4ab:irdata = 0;break;
+            case 0xf689:irdata = 1;break;
+            case 0xf986:irdata = 2;break;
+            case 0xfB04:irdata = 3;break;
+            case 0xf30C:irdata = 4;break;
+            case 0xf18E:irdata = 5;break;
+            case 0xf7A8:irdata = 6;break;
+            case 0xf10E:irdata = 7;break;
+            case 0xf38C:irdata = 8;break;
+            case 0xf5AA:irdata = 9;break;
+            case 0xf42B:irdata = 10;break;
+            case 0xf52A:irdata = 11;break;
             default:
             irdata = -1;
         }
