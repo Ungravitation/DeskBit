@@ -218,7 +218,7 @@ namespace DeskBit {
     function valuotokeyConversion():number{
         let irdata:number;
         switch(irCode()){
-            case 0xf629:irdata = 12;break;
+            case 0xb946:irdata = 12;break;
             case 0xf22d:irdata = 13;break;
             case 0xfa85:irdata = 14;break;
             case 0xfc23:irdata = 15;break;
